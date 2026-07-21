@@ -241,3 +241,37 @@ Examples include:
 • Keep humans responsible for final decisions.
 
 These principles were derived from practical claims-handling experience rather than generic chatbot behavior.
+
+## Live Demo
+
+Try the live demo here:
+
+https://udify.app/chat/27pWfgsdddFyqwYy
+
+The current prototype accepts Japanese input.
+
+You can copy and paste one of the following examples.
+
+Example 1
+
+車が動かないです。
+過失割合はまだ決まっていません。
+代車は借りられますか？
+
+Expected behavior
+
+- Detects a replacement vehicle inquiry
+- Detects that the vehicle is not drivable
+- Detects that liability is still undetermined
+- Provides practical next-step guidance
+
+Example 2
+
+私は悪くありません。
+相手が全部悪いです。
+
+Expected behavior
+
+- Detects a policyholder zero-liability claim
+- Explains the next procedural step
+- Avoids making a final liability determination
