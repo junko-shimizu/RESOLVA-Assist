@@ -169,3 +169,75 @@ Preserve valuable frontline expertise.
 Make professional judgment easier to transfer.
 
 Help the next generation make better decisions.
+## Quick Start
+
+### Live Demo
+
+No installation is required.
+
+Open the Live Demo:
+(URL)
+
+Copy one of the sample inputs.
+
+Submit.
+
+Compare the output with the expected behavior.
+
+### Local Development
+
+1. Clone this repository.
+2. Import the Dify workflow.
+3. Configure your LLM API key.
+4. Publish the workflow.
+5. Run the included test scenarios.
+   
+## Sample Inputs
+
+Scenario 1
+
+My car cannot be driven after the accident.
+Liability has not been determined.
+Can I get a rental car?
+
+Expected behavior
+
+• Detect replacement vehicle inquiry
+• Detect unknown liability
+• Avoid guaranteeing payment
+• Explain next step
+
+## How GPT-5.6 and Codex Were Used
+
+GPT-5.6 served as a design and reasoning partner throughout the project.
+
+It was used to:
+
+• Convert practical insurance knowledge into structured decision rules
+• Design response principles
+• Review difficult edge cases
+• Improve English documentation
+
+Codex accelerated implementation by:
+
+• Writing and revising JavaScript classifier logic
+• Expanding keyword coverage
+• Generating automated test cases
+• Detecting routing regressions
+• Speeding up iterative development
+
+Final business decisions remained under human control and were based on 23 years of automobile claims experience.
+
+## Key Design Decisions
+
+Several important decisions were intentionally implemented.
+
+Examples include:
+
+• Never assume facts that are not explicitly stated.
+• Never guarantee rental reimbursement while liability remains unresolved.
+• Separate customer statements from verified facts.
+• Prioritize operational guidance over lengthy legal explanations.
+• Keep humans responsible for final decisions.
+
+These principles were derived from practical claims-handling experience rather than generic chatbot behavior.
